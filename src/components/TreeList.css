@@ -1,0 +1,109 @@
+#tree-list-container {
+  margin-right: 0px;
+  max-width: 100%;
+  margin-left: 10px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  /* Xóa bóng đổ */
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+#tree-list-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  background-color: white;
+  color: #333;
+  text-align: center;
+}
+
+#tree-list {
+  list-style: none;
+  padding: 0;
+}
+
+#tree-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 5px;
+  /* Xóa bóng đổ (nếu có) */
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+#tree-name {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+#tree-description {
+  font-size: 1rem;
+  color: #666;
+}
+
+#tree-list img {
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #dc3545; /* Red */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 10px; /* Space between buttons */
+  /* Xóa bóng đổ (nếu có) */
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+button:hover {
+  background-color: #c82333; /* Darker red */
+}
+
+.edit-button {
+  background-color: white;
+  color: blue;
+}
+
+.edit-button:hover {
+  background-color: white;
+  color: blue;
+  cursor: pointer;
+  transition: color 0.3s;
+  transition: background-color 0.3s;
+  transition: transform 0.3s;
+  transform: scale(1.1);
+  transition: fill 0.3s;
+  transition: opacity 0.3s;
+}
+
+.delete-button {
+  background-color: white;
+  color: red;
+}
+
+.delete-button:hover {
+  background-color: white;
+  color: red;
+  cursor: pointer;
+  transition: color 0.3s;
+  transition: background-color 0.3s;
+  transition: transform 0.3s;
+  transform: scale(1.1);
+  transition: fill 0.3s;
+  transition: opacity 0.3s;
+}
+
+/* Icon styles for edit and delete buttons */
+.icon {
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-right: 5px; /* Space between icon and text */
+}
